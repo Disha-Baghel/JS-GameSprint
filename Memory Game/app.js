@@ -58,10 +58,8 @@ function createBoard(){
         const card = document.createElement('img')
         card.setAttribute('src', 'images/blank.jpg')
         for(let columns = 0; columns < cardArray.length; columns++){
-        
-        
-        card.setAttribute('data-id', columns)
-        gridDisplay.append(card)
+            card.setAttribute('data-id', columns)
+            gridDisplay.append(card)
         }
     }
 }
